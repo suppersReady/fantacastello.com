@@ -1,8 +1,8 @@
 <?php
 
-class DatabaseClass{	
+class DatabaseConn{	
 	
-    private $connection = null;
+  private $connection = null;
 
     // this function is called everytime this class is instantiated			
     public function __construct( $dbhost = "localhost", $dbname = "myDataBaseName", $username = "root", $password    = ""){
